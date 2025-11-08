@@ -1,0 +1,44 @@
+{
+  "name": "react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.10.1",
+    "@tailwindcss/postcss": "^4.1.17",
+    "lucide-react": "^0.553.0",
+    "parcel": "^2.16.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-redux": "^9.2.0",
+    "tailwindcss": "^4.1.17"
+  },
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "lint": "eslint src"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-preset-react-app": "^10.0.1",
+    "eslint": "^8.3.0",
+    "eslint-config-react-app": "^7.0.1",
+    "prettier": "^3.6.2"
+  },
+  "source": "public/index.html"
+}
